@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.t-li {
+  list-style-type: none;
+  display: flex;
+  border: 2px solid #7e858e;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.t-para {
+  width: 80px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.t-btn {
+  align-self: flex-end;
+  background: transparent;
+  border: 0;
+}
+
+.del-img {
+  width: 30px;
+}

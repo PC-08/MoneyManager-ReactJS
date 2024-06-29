@@ -1,0 +1,124 @@
+/* Write your CSS here */
+.bg {
+  padding: 30px;
+  font-family: 'roboto';
+}
+
+.top-card {
+  border-radius: 10px;
+  padding: 15px;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+}
+
+.head {
+  color: #475569;
+  font-weight: 500;
+}
+
+.para {
+  font-weight: 400;
+  color: #475569;
+}
+
+.span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.middle-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.end-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.end-1 {
+  border: 2px solid #7e858e;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.end-sec-head {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.label {
+  color: #7e858e;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-btn {
+  align-self: flex-start;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: #0b69ff;
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  width: 60px;
+}
+
+.tma-con {
+  display: flex;
+  border: 2px solid #7e858e;
+  padding: 8px;
+}
+
+.box-2 {
+  padding: 15px;
+  border: 2px solid #7e858e;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.historl-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.his-para {
+  color: #1e293b;
+  font-weight: bold;
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+.his-head {
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 22px;
+}
+
+@media (max-width: 576px) {
+  .end-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-2 {
+    width: 320px;
+    margin-top: 10px;
+  }
+}
