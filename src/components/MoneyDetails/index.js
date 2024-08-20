@@ -22,23 +22,22 @@ const MoneyDetails = props => {
   }
 
   let viewEach
-  let testid
 
   if (optionId === 'BALANCE') {
     viewEach = balance
-    testid = 'balanceAmount'
+
     if (viewEach.length === 0) {
       viewEach = 0
     }
   } else if (optionId === 'INCOME') {
     viewEach = income
-    testid = 'incomeAmount'
+
     if (viewEach.length === 0) {
       viewEach = 0
     }
   } else if (optionId === 'EXPENSES') {
     viewEach = expense
-    testid = 'expensesAmount'
+
     if (viewEach.length === 0) {
       viewEach = 0
     }

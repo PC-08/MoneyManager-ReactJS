@@ -31,9 +31,11 @@
 .md-in {
   background-color: #cffafe;
   border: 2px solid #06b6d4;
+  padding: 33px;
 }
 
 .md-ex {
   background-color: #cbd5e1;
   border: 2px solid #7c3aed;
+  padding: 25px;
 }
